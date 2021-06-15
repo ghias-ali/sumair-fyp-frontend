@@ -1,0 +1,29 @@
+.recentads{
+    text-align: center;
+    color:#FA9746;
+}
+.ad11{
+    background-color: azure;
+    height: 15em;
+    max-width: 40em;
+    border-radius: 1em;
+    margin: 0 auto;
+}
+.titleandimage{
+    height: 45px;
+    display: flex;
+}
+.adtitle{
+    margin-top: 7px;
+    margin-left: 3px;
+    margin-bottom: -1px;
+}
+.a-tag-up{
+    margin-left: 3px;
+}
+.color-tag{
+    color:"blue"
+}
+.heartsvg{
+    margin-left: 18em;
+}

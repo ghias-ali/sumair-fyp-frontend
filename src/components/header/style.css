@@ -1,0 +1,9 @@
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #FA9746!important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff!important;
+}

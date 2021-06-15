@@ -1,0 +1,13 @@
+.content {
+    padding: 16px!important;
+  }
+  
+  .sticky {
+    position: fixed!important;
+    top: 0!important;
+    width: 100%!important;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px!important;
+  }

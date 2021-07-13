@@ -27,3 +27,6 @@
 .heartsvg{
     margin-left: 18em;
 }
+.inrowview{
+    display:flex;
+}

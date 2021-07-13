@@ -6,7 +6,7 @@ import PrivateRoute from "./privateRoutes";
 import Signin from "../components/signinPage/index";
 import Signup from "../components/signupPage/index";
 import Dashboard from "../container/dashboard/index";
-import Header from "../components/header/index";
+import Postad from "../components/postad/index"
 import "./style.css";
 export const history = createBrowserHistory();
 
@@ -14,11 +14,12 @@ const AppRouter = () => (
   <Router history={history}>
     <div>
       
-      <Header/>
       <Switch>
         <PublicRoute exact path="/signin" component={Signin} />
         <PublicRoute exact path="/signup" component={Signup} />
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
+        <PrivateRoute exact path="/postad" component={Postad} />
+
 
         <Redirect from="*" to="/signin" />
       </Switch>

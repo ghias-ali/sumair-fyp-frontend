@@ -104,7 +104,7 @@ function SigninPage() {
                     New To Places Hub?
                   </p>
                   <Link to="signup">
-                  <a style={{color:"#FA9746"}} onClick={console.log("clicked")}>{" "} Sign Up</a>
+                  <a style={{color:"#FA9746"}} onClick={console.log("clicked")} href='##'>{" "} Sign Up</a>
                   </Link>
 
                 </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { Scrollbars } from "react-custom-scrollbars";
 import "./style.css";
 import { Carousel, Button } from "antd";
-import { HeartOutlined, HeartFilled } from "@ant-design/icons";
+import { HeartOutlined } from "@ant-design/icons";
 const renderThumb = ({ style, ...props }) => {
   const thumbStyle = {
     borderRadius: 6,
@@ -48,7 +48,7 @@ function AdsComponent() {
             <div>
               <h5 className='adtitle'>Hotel Rooms are available </h5>
               <p className='a-tag-up'>
-                Posted By <a className='color-tag'>Zubair</a> on Dec 12, 2021
+                Posted By <a className='color-tag' href='##'>Zubair</a> on Dec 12, 2021
               </p>
             </div>
 
@@ -107,7 +107,7 @@ function AdsComponent() {
             <div>
               <h5 className='adtitle'>Hotel Rooms are available </h5>
               <p className='a-tag-up'>
-                Posted By <a className='color-tag'>Zubair</a> on Dec 12, 2021
+                Posted By <a className='color-tag' href='##'>Zubair</a> on Dec 12, 2021
               </p>
             </div>
 
@@ -166,7 +166,7 @@ function AdsComponent() {
             <div>
               <h5 className='adtitle'>Hotel Rooms are available </h5>
               <p className='a-tag-up'>
-                Posted By <a className='color-tag'>Zubair</a> on Dec 12, 2021
+                Posted By <a className='color-tag' href='##'>Zubair</a> on Dec 12, 2021
               </p>
             </div>
 
@@ -225,7 +225,7 @@ function AdsComponent() {
             <div>
               <h5 className='adtitle'>Hotel Rooms are available </h5>
               <p className='a-tag-up'>
-                Posted By <a className='color-tag'>Zubair</a> on Dec 12, 2021
+                Posted By <a className='color-tag' href='##'>Zubair</a> on Dec 12, 2021
               </p>
             </div>
 
@@ -284,7 +284,7 @@ function AdsComponent() {
             <div>
               <h5 className='adtitle'>Hotel Rooms are available </h5>
               <p className='a-tag-up'>
-                Posted By <a className='color-tag'>Zubair</a> on Dec 12, 2021
+                Posted By <a className='color-tag' href='##'>Zubair</a> on Dec 12, 2021
               </p>
             </div>
 
@@ -343,7 +343,7 @@ function AdsComponent() {
             <div>
               <h5 className='adtitle'>Hotel Rooms are available </h5>
               <p className='a-tag-up'>
-                Posted By <a className='color-tag'>Zubair</a> on Dec 12, 2021
+                Posted By <a className='color-tag' href='##'>Zubair</a> on Dec 12, 2021
               </p>
             </div>
 

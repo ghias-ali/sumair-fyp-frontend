@@ -1,5 +1,5 @@
 import authReducer from './auth/reducer';
 
-export default {
-    authReducer
-}
+
+
+export default authReducer;
